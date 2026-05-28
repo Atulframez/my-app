@@ -4,12 +4,15 @@ export default function Index() {
   return (
     <View
       style={{
+        backgroundColor: "red",
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold", color: "white" }}>
+        Welcome to the Atul-First-App
+      </Text>
     </View>
   );
 }
