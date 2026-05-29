@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -14,6 +15,7 @@ export default function Index() {
         fontStyle: "italic" }}>
         Welcome to the Atul-First-App
       </Text>
+      <Link href={"/about"}>Go to about</Link>
     </View>
   );
 }
